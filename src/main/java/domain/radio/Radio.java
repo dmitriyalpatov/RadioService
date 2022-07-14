@@ -8,19 +8,6 @@ public class Radio {
         return currentStation;
     }
 
-
-    public void increaseTheVolume() {
-        if (currentVolume < 10) {
-            currentVolume = currentVolume + 1;
-        }
-    }
-
-    public void reducingTheVolume() {
-        if (currentVolume < 10) {
-            currentVolume = currentVolume - 1;
-        }
-    }
-
     public int getCurrentVolume() {
         return currentVolume;
     }
